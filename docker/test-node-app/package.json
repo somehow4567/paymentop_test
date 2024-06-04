@@ -1,0 +1,17 @@
+{
+  "name": "test-node-app",
+  "version": "1.0.0",
+  "description": "NodeJS 18 application",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "npm run build --ENV=dev",
+    "build:prod": "npm run build --ENV=prod",
+    "build": "node scripts/build.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mkdirp": "^1.0.4",
+    "rimraf": "^3.0.2"
+  }
+}
+
